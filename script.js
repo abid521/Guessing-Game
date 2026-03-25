@@ -11,7 +11,7 @@ while (true) {
   }
   if (userGuess == random) {
     prompt(
-      `Congratulations you guessed it right! The random num was ${random}`,
+      `Congratulations you guessed it right! The random number was ${random}`,
     );
     break;
   } else if (userGuess > random) {
